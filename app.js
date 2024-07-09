@@ -48,6 +48,7 @@ function condicionesIniciales(){
     numeroSecreto = numeroAleatorio();
     numeroIntentos = 1;
     document.querySelector('#reiniciar').setAttribute('disabled','true');
+    console.log(numerosSecretosVistos);
 }
 
 let numeroMaximo = 10;
